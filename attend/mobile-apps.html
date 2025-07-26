@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development - TechFlow Solutions</title>
+    <!-- Paste the same <style> block from the first file here -->
+    <style> * { margin: 0; padding: 0; box-sizing: border-box; } :root { --primary-color: #1e40af; --secondary-color: #3b82f6; --accent-color: #60a5fa; --dark-color: #1f2937; --light-gray: #f8fafc; --medium-gray: #64748b; --white: #ffffff; --success-color: #059669; --warning-color: #d97706; } body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--dark-color); overflow-x: hidden; } .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; } header { background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: fixed; width: 100%; top: 0; z-index: 1000; transition: all 0.3s ease; } nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; } .logo a { font-size: 1.8rem; font-weight: bold; color: var(--primary-color); text-decoration: none; } .nav-links { display: flex; list-style: none; gap: 2rem; } .nav-links a { text-decoration: none; color: var(--dark-color); font-weight: 500; transition: color 0.3s ease; } .nav-links a:hover { color: var(--primary-color); } .service-page-hero { background: var(--primary-color); color: var(--white); padding: 140px 0 80px; text-align: center; } .service-page-hero h1 { font-size: 3rem; margin-bottom: 0.5rem; } .service-page-hero p { font-size: 1.2rem; opacity: 0.9; } .service-details { padding: 80px 0; background: var(--white); } .service-details-content { max-width: 900px; margin: 0 auto; } .service-details h2 { font-size: 2.2rem; color: var(--dark-color); margin-bottom: 1rem; } .service-details p { font-size: 1.1rem; color: var(--medium-gray); margin-bottom: 1.5rem; } .features-list { list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; } .features-list li { background: var(--light-gray); padding: 1rem; border-radius: 8px; position: relative; padding-left: 2.5rem; } .features-list li::before { content: '✓'; position: absolute; left: 1rem; color: var(--success-color); font-weight: bold; } .project-showcase { padding: 80px 0; background: var(--light-gray); } .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; } .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; } .project-card { background: var(--white); border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); overflow: hidden; transition: all 0.3s ease; } .project-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.12); } .project-image { height: 220px; background: var(--medium-gray); display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 1.2rem; } .project-info { padding: 1.5rem; } .project-info h3 { color: var(--primary-color); margin-bottom: 0.5rem; } .project-tags { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; } .project-tags span { background: var(--accent-color); color: var(--white); padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 500; } .cta-section { padding: 80px 0; text-align: center; background: var(--white); } .cta-button { display: inline-block; background: var(--primary-color); color: var(--white); padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; transition: all 0.3s ease; } .cta-button:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(30, 64, 175, 0.3); } footer { background: var(--dark-color); color: var(--white); padding: 3rem 0 1rem; } .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; } .footer-section h3 { margin-bottom: 1rem; color: var(--accent-color); } .footer-section ul { list-style: none; padding: 0;} .footer-section ul li { padding: 0.3rem 0; } .footer-section ul li a { color: var(--white); text-decoration: none; transition: color 0.3s ease; } .footer-section ul li a:hover { color: var(--accent-color); } .footer-bottom { text-align: center; padding-top: 2rem; border-top: 1px solid var(--medium-gray); opacity: 0.8; } @media (max-width: 768px) { .features-list { grid-template-columns: 1fr; } .project-grid { grid-template-columns: 1fr; } } </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="web.html">TechFlow Solutions</a></div>
+                <ul class="nav-links">
+                    <li><a href="web.html#home">Home</a></li>
+                    <li><a href="web.html#services">Services</a></li>
+                    <li><a href="web.html#internships">Internships</a></li>
+                    <li><a href="web.html#about">About</a></li>
+                    <li><a href="web.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="service-page-hero">
+        <div class="container">
+            <h1>Mobile App Development</h1>
+            <p>Engaging, high-performance applications for iOS and Android.</p>
+        </div>
+    </section>
+    <main class="service-details">
+        <div class="container service-details-content">
+            <h2>Building for a Mobile-First World</h2>
+            <p>We create beautiful and intuitive mobile apps that your users will love. Our development process focuses on user experience, performance, and scalability. Whether you need a native app for maximum performance or a cross-platform solution for broader reach, we have the expertise to deliver.</p>
+            <h3>What We Offer</h3>
+            <ul class="features-list">
+                <li>Native iOS (Swift) Development</li>
+                <li>Native Android (Kotlin) Development</li>
+                <li>Cross-Platform (React Native, Flutter)</li>
+                <li>UI/UX Design for Mobile</li>
+                <li>App Store Deployment & Support</li>
+                <li>Backend and API Integration</li>
+            </ul>
+        </div>
+    </main>
+    <section class="project-showcase">
+        <div class="container">
+            <h2 class="section-title">Our Mobile App Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">Project Image Placeholder</div>
+                    <div class="project-info">
+                        <h3>Fitness Tracker App 'FitLife'</h3>
+                        <p>A cross-platform app with real-time workout tracking, social features, and integration with wearable devices.</p>
+                        <div class="project-tags"><span>Flutter</span><span>Firebase</span><span>Bluetooth API</span></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Project Image Placeholder</div>
+                    <div class="project-info">
+                        <h3>Fintech App 'CoinFlow'</h3>
+                        <p>A secure native iOS application for personal finance management, featuring biometric authentication and data encryption.</p>
+                        <div class="project-tags"><span>Swift</span><span>Core Data</span><span>Security</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">Have an app idea?</h2>
+            <p style="margin-bottom: 2rem; color: var(--medium-gray);">Let's turn your concept into a reality.</p>
+            <a href="web.html#contact" class="cta-button">Start Your Project</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul><li>📧 info@techflowsolutions.com</li><li>📞 +1 (555) 123-4567</li><li>📍 123 Tech Street, Innovation City</li></ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul><li><a href="web-development.html">Web Development</a></li><li><a href="cloud-solutions.html">Cloud Solutions</a></li><li><a href="mobile-apps.html">Mobile Apps</a></li><li><a href="cybersecurity.html">Cybersecurity</a></li></ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul><li><a href="web.html#about">About Us</a></li><li><a href="web.html#internships">Careers</a></li><li><a href="web.html#internships">Internships</a></li><li><a href="web.html#contact">Contact</a></li></ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul><li><a href="#">LinkedIn</a></li><li><a href="#">Twitter</a></li><li><a href="#">GitHub</a></li><li><a href="#">YouTube</a></li></ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 TechFlow Solutions. All rights reserved.</p></div>
+        </div>
+    </footer>
+</body>
+</html>
